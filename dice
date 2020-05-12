@@ -1,0 +1,16 @@
+## dice roller
+ 
+from random import randint
+while True:
+    user = int(input("Which dice will you roll? "))
+    x=int(user)
+    print("You rolled a ") 
+    print(randint(1, int(x)))
+    print("Do you want to roll again?")
+    user_input = input("y/n: ")        
+    if user_input == "n":
+        break
+print("Good luck!")
+
+   
+ 

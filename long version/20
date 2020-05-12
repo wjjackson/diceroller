@@ -1,0 +1,13 @@
+from random import randint
+
+
+while True:
+    print("You rolled a ") 
+    print(randint(1,20))
+    print("Do you want to roll again?")
+    user_input = input("y/n: ")
+    if user_input == "n":
+        break
+print("Good luck!")
+        
+ 
